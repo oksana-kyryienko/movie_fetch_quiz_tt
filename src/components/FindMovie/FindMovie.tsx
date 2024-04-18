@@ -5,7 +5,6 @@ import { Movie } from '../../types/Movie';
 import { MovieCard } from '../MovieCard';
 import './FindMovie.css';
 import { Link } from 'react-router-dom';
-import not_find from '../../images/not_find.png';
 import ProgressBar from '../ProgressBar/ProgressBar';
 
 export const FindMovie: React.FC = () => {
@@ -103,7 +102,7 @@ export const FindMovie: React.FC = () => {
                       : 'Incorrect input'}
                   </p>
                   {error && (
-                    <img className="img--find" src={not_find} alt="not_find" />
+                    <img className="img--find" src="not_find.png" alt="not_find" />
                   )}
                 </div>
               )}

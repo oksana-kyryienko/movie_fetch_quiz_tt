@@ -2,11 +2,11 @@
   {
     "title": "Your favorite movie genre?",
     "variants": [
-      { "text": "Drama", "image": "/src/images/drama.png" },
-      { "text": "Comedy", "image": "/src/images/comedy.png" },
-      { "text": "Action", "image": "/src/images/action.png" },
-      { "text": "Thriller", "image": "/src/images/thriller.png" },
-      { "text": "Science fiction", "image": "/src/images/science.png" }
+      { "text": "Drama", "image": "drama.png" },
+      { "text": "Comedy", "image": "comedy.png" },
+      { "text": "Action", "image": "action.png" },
+      { "text": "Thriller", "image": "thriller.png" },
+      { "text": "Science fiction", "image": "science.png" }
     ],
     "correct": 0
   }
