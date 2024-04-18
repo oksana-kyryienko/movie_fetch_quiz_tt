@@ -1,0 +1,18 @@
+.card-image img {
+  object-fit: contain;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.card {
+  margin-top: 50px;
+  border-radius: 10px;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+  max-width: 100%;
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+}
+

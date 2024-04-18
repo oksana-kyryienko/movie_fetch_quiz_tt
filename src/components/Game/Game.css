@@ -1,0 +1,49 @@
+.variant-marker {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 10px;
+
+  position: relative;
+}
+
+.variant-marker.unselected {
+  background-color: transparent;
+  border: 1px solid #000;
+}
+
+.variant-marker.selected {
+  background-color: var(--main-color);
+  border: 1px solid transparent;
+}
+
+.variant-marker.selected::before {
+  position: absolute;
+  right: 4px;
+  content: '';
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-bottom: 2px solid var(--white-color);
+  border-right: 2px solid var(--white-color);
+  transform: rotate(45deg);
+}
+
+.game {
+  margin-bottom: 50px;
+}
+
+.game__item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.game__item--right {
+  display: flex;
+  gap: 10px;
+}
+
+.image {
+  object-fit: contain;
+}

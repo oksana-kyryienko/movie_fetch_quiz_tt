@@ -1,0 +1,28 @@
+.progress {
+  height: 10px;
+  border-radius: 30px;
+  background-color: rgb(232, 232, 232);
+  margin-bottom: 25px;
+  width: 100%;
+  max-width: 800px;
+  position: relative;
+}
+
+.progress__inner {
+  height: 100%;
+  border-radius: 30px;
+  width: 80%;
+  background: rgba(74, 214, 187);
+  transition: all 0.3s ease-in-out;
+  background: linear-gradient(
+    90deg,
+    rgba(74, 214, 187, 1) 0%,
+    rgba(56, 165, 143, 1) 100%
+  );
+}
+
+.progress__text {
+  bottom: 20px;
+  right: 0;
+  position: absolute;
+}
